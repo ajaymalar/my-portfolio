@@ -12,15 +12,32 @@ html, body, #root {
   min-height: 100vh;
 }
 
+/* Main content will grow to push footer down */
 .content {
   flex: 1;
-  padding-bottom: 2rem; /* Optional spacing before footer */
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
+/* Footer design */
 .footer {
   background-color: #222;
   color: white;
   text-align: center;
   padding: 1rem;
   font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* 🔽 Responsive styles for mobile */
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .footer {
+    font-size: 0.85rem;
+    padding: 0.8rem;
+  }
 }
