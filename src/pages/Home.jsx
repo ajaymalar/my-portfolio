@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="home">
-      <h1>Hello, I'm Ajay 👋</h1>
+      <h1>Hello, I'm Ajay Malar 👋</h1>
       <p>A passionate Computer Science student at MIT, Anna University</p>
       <p>I build web apps, explore AI, and solve problems with code.</p>
 
