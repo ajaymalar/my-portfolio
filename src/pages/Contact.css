@@ -1,25 +1,52 @@
 /* src/pages/Contact.css */
-.contact {
-  padding: 2rem 1rem;
+.contact-container {
+  padding: 3rem 1.5rem;
+  max-width: 800px;
+  margin: auto;
   text-align: center;
+  color: #004f90;
 }
 
-.contact-links {
+.contact-container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.contact-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
   gap: 1.2rem;
 }
 
-.contact-links a {
+.contact-card {
+  display: flex;
+  align-items: center;
+  background: #f0f7fc;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
   text-decoration: none;
-  color: #00bcd4;
-  font-size: 1.1rem;
+  color: #004f90;
   font-weight: bold;
-  transition: color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 79, 144, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-.contact-links a:hover {
-  color: #007c91;
+.contact-card:hover {
+  background-color: #e0f2ff;
+  transform: translateY(-3px);
+}
+
+.contact-card .icon {
+  margin-right: 12px;
+  font-size: 1.4rem;
+  color: #00bcd4;
 }
