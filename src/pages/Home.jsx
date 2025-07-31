@@ -9,7 +9,7 @@ function Home() {
       <p>I build web apps, explore AI, and solve problems with code.</p>
 
       <a
-        href="https://drive.google.com/file/d/1edkz-92LxJ3vt0GCztErpU07utiBRVMh/view?usp=sharing"
+        href="https://drive.google.com/file/d/1zVa4vDtUjc6Iv9XltlMHzR36mTbpPGJl/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="resume-btn"
